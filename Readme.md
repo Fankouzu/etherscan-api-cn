@@ -1,5 +1,6 @@
-# Etherscan API
+# Etherscan API 中国镜像
 
+目前只有主网的Etherscan中国镜像，还没找到Ropsten、Rinkeby测试网浏览器的镜像，如果你知道，希望你能告诉我，加微信：cuijin
 ## Development of a NEXTGEN Version has started - please stand by
 
 [![npm](https://img.shields.io/npm/dt/etherscan-api.svg)](https://www.npmjs.com/package/etherscan-api)
@@ -14,7 +15,7 @@ Mainnet
 
 
 ```javascript
-var api = require('etherscan-api').init('YourApiKey');
+var api = require('etherscan-api-cn').init('YourApiKey');
 var balance = api.account.balance('0xde0b295669a9fd93d5f28d9ec85e40f4cb697bae');
 balance.then(function(balanceData){
   console.log(balanceData);
@@ -36,14 +37,14 @@ Latest
 
 ```javascript
 // apikey, network, timeout
-var api = require('etherscan-api').init('YourApiKey','rinkeby'. '3000');
+var api = require('etherscan-api-cn').init('YourApiKey','rinkeby'. '3000');
 ```
 
 
 ## Install
 
  ```bash
- npm install etherscan-api --save
+ yarn add etherscan-api-cn
  ```
 
 
