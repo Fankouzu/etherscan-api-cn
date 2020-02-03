@@ -1,7 +1,7 @@
 {
   "name": "etherscan-api-cn",
-  "version": "10.0.5",
-  "description": "API to cn.etherscan with a simple interface",
+  "version": "10.0.6",
+  "description": "API to cn.etherscan with a simple interface中国镜像",
   "main": "index.js",
   "scripts": {
     "test": "mocha -t 20000",
